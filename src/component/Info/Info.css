@@ -1,0 +1,29 @@
+.info{
+    display: flex;
+    margin-left: 200px;
+    padding: 20px;
+    border-bottom: 2px solid lightgray;
+    border-right: 1px solid gray;
+}
+.users-image img{
+    height: 200px;
+    width: 200px;
+}
+.users-info{
+    margin-left: 30px;
+    padding:0px;
+    
+}
+.users-info h3{
+    font-weight: 400;
+}
+.add-btn{
+    background-color: lightseagreen;
+    padding: 5px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 5px;
+    border: 1px solid rgb(60, 113, 192);
+    font-weight: 700;
+}
+
