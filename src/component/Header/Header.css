@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(80, 179, 174);
+    line-height: 35px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px;
+    color: black;
+    font-weight: 400;
+}
+nav a:hover{
+    background-color: azure;
+}

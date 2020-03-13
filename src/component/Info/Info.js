@@ -13,11 +13,11 @@ const Info = (props) => {
             <div className="users-info">
                 <h3>Name: {name}</h3>
                 <p><small>Email : {email}</small></p>
-                <p>phone no: {phone}</p>
+                <p>Phone no: {phone}</p>
                 <p><small>Adress: {adress}</small></p>
                 <p><small>About: {info}</small></p>
                 <p>Selary: {salery} Taka</p>
-                <button className="add-btn"><FontAwesomeIcon icon={faPlus} /> Add Friend</button>
+                <button onClick={()=>props.handleAddedUser(props.user)} className="add-btn"><FontAwesomeIcon icon={faPlus} /> Add User</button>
             </div>
             
         </div>

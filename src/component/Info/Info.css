@@ -1,17 +1,16 @@
 .info{
     display: flex;
-    margin-left: 200px;
+    margin-left: 20px;
     padding: 20px;
     border-bottom: 2px solid lightgray;
     border-right: 1px solid gray;
 }
 .users-image img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
 }
 .users-info{
     margin-left: 30px;
-    padding:0px;
     
 }
 .users-info h3{
